@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <!--Seta utilizada na linha 32 Pré requisito-->
+    <!-- Meta tags Obrigatórias -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.css" >
+
+    <link rel="stylesheet" href="index.css">
+
+<!--Jquery-->
+<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+<link rel="stylesheet" href="font/css/all.css">
+<script src="javascript.js"></script>
+
+
+    <title>Página principal</title>
+  </head>
+  <body>
+
+   <div class="container-fluid">
+
+
+    <div id="logoMenu">
+     <a href="index.html"><img src="imagens/logo.png"></a> 
+      </div>
+
+      <div id="seta">
+        <img src="imagens/Seta.png">
+      </div>
+
+    <div id="menu" class="row">
+   
+      <div class="col-6 d-flex offset-5 mr-3">
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <div class="botao">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+   
+      
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav text-center">
+          <a class="mx-2 nav-item nav-link active" href="index.html">Início<span class="sr-only">(current)</span></a>
+          <a class="mx-2 nav-item nav-link" href="Cadastro/cadastro.html">Cadastro</a>
+          <a class="mx-2 nav-item nav-link" href="Serviços/serviços.html">Serviços</a>
+          <a class="mx-2 nav-item nav-link" href="Sobre/sobre.html">Sobre</a>
+        </div>
+      </div>
+    </div>
+    </nav>
+  </div>
+
+  </div>
+
+    <!--Fim do menu-->
+
+
+<!--Fim menu header-->
+
+<div class="row">
+    <div class="col-lg-12">
+        <div id="carrocelLegenda" class="carousel slide" data-ride="carousel">
+            <!--Indicadores-->
+            <ol class="carousel-indicators">
+               <li data-target="#carrocelLegenda" data-slide-to="0"></li>
+               <li data-target="#carrocelLegenda" data-slide-to="1"></li>
+               <li data-target="#carrocelLegenda" data-slide-to="2"></li>
+               <li data-target="#carrocelLegenda" data-slide-to="3"></li>
+            </ol>
+ 
+             <div class="carousel-inner">
+                 <div class="carousel-item active">
+                  <img class="img-fluid" src="imagens/bandeira.png">
+                 </div><!--Fim div carousel item-->
+              
+                 <div class="carousel-item">
+                   <img class="img-fluid" src="imagens/lavit.png">
+                 </div><!--Fim div carousel item2-->
+                  <div class="carousel-item">
+                   <img  class="img-fluid" src="imagens/dipirona.png">
+                 </div><!--Fim div carousel item3-->
+                 <div class="carousel-item">
+                  <img  class="img-fluid" src="imagens/benegripe.png">
+                </div><!--Fim div carousel item3-->
+   
+             </div> <!--Fim Div carousel inner-->
+             
+ 
+             <!--Controles-->
+             <a href="#carrocelLegenda" class="carousel-control-prev" data-slide="prev">
+             <span class="carousel-control-prev-icon"></span>    
+             </a>
+ 
+             <a href="#carrocelLegenda" class="carousel-control-next" data-slide="next">
+             <span class="carousel-control-next-icon"></span>    
+             </a>
+ 
+             </div>
+
+
+    </div>
+</div>
+
+
+
+
+<div class="row">
+  <div class="col-lg-4">
+    <button id="comprados" class="btn btn-primary botao w-100 h-100 p-4">Segunda lista</button>
+  </div>
+  <div id="promocoes" class="col-lg-4">
+    <button class="btn btn-primary botao active w-100 h-100 p-4">Primeira lista</button>
+  </div>
+  <div class="col-lg-4">
+    <button id="saude" class="btn btn-primary botao w-100 h-100 p-4">Terceira lista</button>
+  </div>
+
+ </div>
+
+ <div id="produtos">
+
+<!--Início Fade Out/In-->
+
+<div class="row">
+      
+  <div class="col-lg-4 col-6 mt-5 d-flex flex-column justify-content-center align-items-center">
+    <img class="w-50" src="imagensRemedios/ambroxol.png">
+    <div class="w-50 text-left text-white">
+    <h5 class="text-dark">Ambroxol - Bronqtrat</h5>
+    <div class=" d-flex flex-column align-items-start">
+     <h5  class="texto text-black-50"> <s>De 37,03R$</s></h5>
+     <h5 class="text-dark font-weight-bold"><small>Por</small> 8,00R$</h5>
+   </div>
+   </div>
+   </div>
+   <div class="col-lg-4 col-6 mt-5 d-flex flex-column justify-content-center align-items-center">
+    <img class="w-50" src="imagensRemedios/anador.png">
+    <div class="w-50 text-left text-white">
+    <h5 class="text-dark">Anador 4 comprimidos</h5>
+    <div class=" d-flex flex-column align-items-start">
+     <h5  class="texto text-black-50"> <s>De 4,15R$</s></h5>
+     <h5 class="text-dark font-weight-bold"><small>Por</small> 3,50R$</h5>
+   </div>
+   </div>
+   </div>
+   <div class="col-lg-4 col-6 mt-5 d-flex flex-column justify-content-center align-items-center">
+    <img class="w-50" src="imagensRemedios/apevitin.png">
+    <div class="w-50 text-left text-white">
+    <h5 class="text-dark">Apevitin BC</h5>
+    <div class=" d-flex flex-column align-items-start">
+     <h5  class="texto text-black-50"> <s>De 39,38R$</s></h5>
+     <h5 class="text-dark font-weight-bold"><small>Por</small> 12,00R$</h5>
+   </div>
+   </div>
+   </div>
+    
+      
+   <div class="col-lg-4 col-6 mt-5 d-flex flex-column justify-content-center align-items-center">
+    <img class="w-50" src="imagensRemedios/benegrip.png">
+    <div class="w-50 text-left text-white">
+    <h5 class="text-dark">Benegrip 6 comprimidos</h5>
+    <div class=" d-flex flex-column align-items-start">
+     <h5  class="texto text-black-50"> <s>De 11,25R$</s></h5>
+     <h5 class="text-dark font-weight-bold"><small>Por</small> 8,00R$</h5>
+   </div>
+   </div>
+   </div>
+   <div class="col-lg-4 col-6 mt-5 d-flex flex-column justify-content-center align-items-center">
+    <img class="w-50" src="imagensRemedios/buscofem.png">
+    <div class="w-50 text-left text-white">
+    <h5 class="text-dark">Buscofem 400mg</h5>
+    <div class=" d-flex flex-column align-items-start">
+     <h5  class="texto text-black-50"> <s>De 25,42R$</s></h5>
+     <h5 class="text-dark font-weight-bold"><small>Por</small> 20,00R$</h5>
+   </div>
+   </div>
+   </div>
+   <div class="col-lg-4 col-6 mt-5 d-flex flex-column justify-content-center align-items-center">
+    <img class="w-50" src="imagensRemedios/buscopan.jpg">
+    <div class="w-50 text-left text-white">
+    <h5 class="text-dark">Buscopam 20ml</h5>
+    <div class=" d-flex flex-column align-items-start">
+     <h5  class="texto text-black-50"> <s>De 17,92R$</s></h5>
+     <h5 class="text-dark font-weight-bold"><small>Por</small> 14,00R$</h5>
+   </div>
+   </div>
+   </div>
+    </div>
+    </div>
+
+     <!--Final Lista de produtos2-->
+
+     <!--Final Fade Out/In-->
+    
+
+    
+
+      <!--Início Fade Out/In2-->
+      <div id="produtos2">
+
+
+        <div class="row">
+      
+          <div class="col-lg-4 col-6 mt-5 d-flex flex-column justify-content-center align-items-center">
+            <img class="w-50" src="imagensRemedios/centrofort.png">
+            <div class="w-50 text-left text-white">
+            <h5 class="text-dark">Centrofort A-Z 30 comprimidos</h5>
+            <div class=" d-flex flex-column align-items-start">
+             <h5  class="texto text-black-50"> <s>De 29,90R$</s></h5>
+             <h5 class="text-dark font-weight-bold"><small>Por</small> 20,00R$</h5>
+           </div>
+           </div>
+           </div>
+           <div class="col-lg-4 col-6 mt-5 d-flex flex-column justify-content-center align-items-center">
+            <img class="w-50" src="imagensRemedios/dipirona 10ml.jpg">
+            <div class="w-50 text-left text-white">
+            <h5 class="text-dark">Dipirona sódica 10ml</h5>
+            <div class=" d-flex flex-column align-items-start">
+             <h5  class="texto text-black-50"> <s>De 6,33R$</s></h5>
+             <h5 class="text-dark font-weight-bold"><small>Por</small> 2,00R$</h5>
+           </div>
+           </div>
+           </div>
+           <div class="col-lg-4 col-6 mt-5 d-flex flex-column justify-content-center align-items-center">
+            <img class="w-50" src="imagensRemedios/dipirona 20ml.png">
+            <div class="w-50 text-left text-white">
+            <h5 class="text-dark">Dipirona sódica 20ml</h5>
+            <div class=" d-flex flex-column align-items-start">
+             <h5  class="texto text-black-50"> <s>De 20,28R$</s></h5>
+             <h5 class="text-dark font-weight-bold"><small>Por</small> 3,00R$</h5>
+           </div>
+           </div>
+           </div>
+           
+      
+           <div class="col-lg-4 col-6 mt-5 d-flex flex-column justify-content-center align-items-center">
+            <img class="w-50" src="imagensRemedios/dipironaCaferina.png">
+            <div class="w-50 text-left text-white">
+            <h5 class="text-dark">Dipirona + Cafeina</h5>
+            <div class=" d-flex flex-column align-items-start">
+             <h5  class="texto text-black-50"> <s>De 18,09R$</s></h5>
+             <h5 class="text-dark font-weight-bold"><small>Por</small> 12,00R$</h5>
+           </div>
+           </div>
+           </div>
+           <div class="col-lg-4 col-6 mt-5 d-flex flex-column justify-content-center align-items-center">
+            <img class="w-50" src="imagensRemedios/LavitanM.png">
+            <div class="w-50 text-left text-white">
+            <h5 class="text-dark">Lavitam Mulher</h5>
+            <div class=" d-flex flex-column align-items-start">
+             <h5  class="texto text-black-50"> <s>De 33,00R$</s></h5>
+             <h5 class="text-dark font-weight-bold"><small>Por</small> 22,00R$</h5>
+           </div>
+           </div>
+           </div>
+           <div class="col-lg-4 col-6 mt-5 d-flex flex-column justify-content-center align-items-center">
+            <img class="w-50" src="imagensRemedios/Maxalgina.png">
+            <div class="w-50 text-left text-white">
+            <h5 class="text-dark">Maxalgina</h5>
+            <div class=" d-flex flex-column align-items-start">
+             <h5  class="texto text-black-50"> <s>De 23,77R$</s></h5>
+             <h5 class="text-dark font-weight-bold"><small>Por</small> 7,00R$</h5>
+           </div>
+           </div>
+           </div>
+            </div>
+            </div>
+             
+           <!--Final Lista de produtos2-->
+      
+           <!--Final Fade Out/In2-->
+         
+
+        
+
+            <!--Início Fade Out/In3-->
+            <div id="produtos3">
+
+
+              <div class="row">
+      
+                <div class="col-lg-4 col-6 mt-5 d-flex flex-column justify-content-center align-items-center">
+                  <img class="w-50" src="imagensRemedios/lavitan.png">
+                  <div class="w-50 text-left text-white">
+                  <h5 class="text-dark">Lavitam</h5>
+                  <div class=" d-flex flex-column align-items-start">
+                   <h5  class="texto text-black-50"> <s>De 33,00R$</s></h5>
+                   <h5 class="text-dark font-weight-bold"><small>Por</small> 22,00R$</h5>
+                 </div>
+                 </div>
+                 </div>
+                 <div class="col-lg-4 col-6 mt-5 d-flex flex-column justify-content-center align-items-center">
+                  <img class="w-50" src="imagensRemedios/paracetamol.png">
+                  <div class="w-50 text-left text-white">
+                  <h5 class="text-dark">Paracetamol</h5>
+                  <div class=" d-flex flex-column align-items-start">
+                   <h5  class="texto text-black-50"> <s>De 17,79R$</s></h5>
+                   <h5 class="text-dark font-weight-bold"><small>Por</small> 8,00R$</h5>
+                 </div>
+                 </div>
+                 </div>
+                 <div class="col-lg-4 col-6 mt-5 d-flex flex-column justify-content-center align-items-center">
+                  <img class="w-50" src="imagensRemedios/ritmoneuran.png">
+                  <div class="w-50 text-left text-white">
+                  <h5 class="text-dark">Ritmoneuran</h5>
+                  <div class=" d-flex flex-column align-items-start">
+                   <h5  class="texto text-black-50"> <s>De 19,20R$</s></h5>
+                   <h5 class="text-dark font-weight-bold"><small>Por</small> 14,00R$</h5>
+                 </div>
+                 </div>
+                 </div>
+
+      
+                 <div class="col-lg-4 col-6 mt-5 d-flex flex-column justify-content-center align-items-center">
+                  <img class="w-50" src="imagensRemedios/simeticona.png">
+                  <div class="w-50 text-left text-white">
+                  <h5 class="text-dark">Simeticona</h5>
+                  <div class=" d-flex flex-column align-items-start">
+                   <h5  class="texto text-black-50"> <s>De 8,45R$</s></h5>
+                   <h5 class="text-dark font-weight-bold"><small>Por</small> 5,00R$</h5>
+                 </div>
+                 </div>
+                 </div>
+                 <div class="col-lg-4 col-6 mt-5 d-flex flex-column justify-content-center align-items-center">
+                  <img class="w-50" src="imagensRemedios/sonrisal.png">
+                  <div class="w-50 text-left text-white">
+                  <h5 class="text-dark">Sonrisal</h5>
+                  <div class=" d-flex flex-column align-items-start">
+                   <h5  class="texto text-black-50"> <s>De 2,01R$</s></h5>
+                   <h5 class="text-dark font-weight-bold"><small>Por</small> 1,75R$</h5>
+                 </div>
+                 </div>
+                 </div>
+                 <div class="col-lg-4 col-6 mt-5 d-flex flex-column justify-content-center align-items-center">
+                  <img class="w-50" src="imagensRemedios/ibuprofeno.png">
+                  <div class="w-50 text-left text-white">
+                  <h5 class="text-dark">Ibuprofeno</h5>
+                  <div class=" d-flex flex-column align-items-start">
+                   <h5  class="texto text-black-50"> <s>De 25,42R$</s></h5>
+                   <h5 class="text-dark font-weight-bold"><small>Por</small> 20,00R$</h5>
+                 </div>
+                 </div>
+                 </div>
+              </div>
+            
+                 <!--Final Lista de produtos2-->
+            
+                 <!--Final Fade Out/In3-->
+                </div>
+
+
+       <div id="news" class="row mt-5 d-flex flex-column d-flex align-items-center justify-content-center">
+        <div class="col-12 mb-5">
+          <h2 class="lead display-4 text-center text-primary mt-5">Receba nossas promoções</h2>
+          </div>
+        <form id="form" class="col-5 form-group">
+           <label id="validationDefault01" class="text-monospace">NOME: </label>
+           <input onkeydown="formIndex(value)" id="validationDefault01" type="text" class="form-control mb-3 nome" placeholder="Digite o seu nome" required>
+           <label id="validationDefault01" class="text-monospace">TELEFONE: </label>
+           <input onkeydown="numeroIndex(value)" id="validationDefault01" type="number" class="form-control mb-3 numero" placeholder="Digite o seu telefone" required>
+           <label id="validationDefault02" class="text-monospace">EMAIL: </label>
+           <input onkeydown="telIndex(value)" id="validationDefault02" type="text" class="form-control mb-4 email" placeholder="Digite o seu email" required>
+           <div class="col-12 d-flex justify-content-center align-items-center">
+          <button id="botaoFormulario" disabled type="button" class="btn btn-secondary">ENVIAR FORMULÁRIO</button>
+          </form>
+        </div>
+</div>
+
+<div class="row bg-dark" id="footer">
+  <div class="col-lg-4 mb-3" id="imagem">
+  <img class="w-50" src="imagens/logo2.png">
+  </div>
+  <div class="col-lg-4" id="redesSociais">
+   <div id="icones">
+    <a href="https://www.instagram.com/farmaciasantoantoniotiangua/?igshid=ikoflz1dxsjn"><i class="fab fa-instagram"></i></a>
+    <a class="" href="https://api.whatsapp.com/send?phone=5555889240711&text=Bem%20vindo(a)%20a%20farm%C3%A1cia%20Santo%20Ant%C3%B4nio!"><i class="fab fa-whatsapp"></i></a>
+  </div>
+  <small>Todos os diretos reservado - Farmácia Santo Antônio</small>
+  <small>R CORONEL JOAO DAMASCENO, 1176 - TIANGUA
+</small>
+  </div>
+  <div class="col-lg-4" id="contatoFooter">
+  <h3 class="lead">Telefones:</h3>
+  <h5 class="lead">(88) 99434-3592</h5>
+  <h5 class="lead">(88) 99999-5442</h5>
+  <h5 class="lead">(88) 3671-2853   </h5>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+    
+   
+
+    <!-- JavaScript (Opcional) -->
+    <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  </body>
+</html>

@@ -1,0 +1,278 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@300&display=swap');
+
+
+/*Footer linha 256
+
+*/
+
+*{
+    font-family: 'Heebo', sans-serif;
+    box-sizing: border-box;
+}
+#seta img{
+cursor: pointer;
+width: 60px;
+height: auto;
+position: fixed;
+z-index: 1;
+right: 0;
+border-radius: 0 0 10px 10px;
+}
+
+#headerServicos{
+    height: 600px;
+    background-image: url("./imagens/servico2.png");
+    background-repeat: no-repeat;
+}
+
+#servicos{
+background-color: rgb(64, 119, 221);
+}
+
+#servicos img{
+width: 100px;
+}
+
+#servicos2{
+    background-color: rgb(51, 51, 51);
+}
+
+#servicos2 img{
+    
+width: 110px;
+}
+
+#servicos3{
+background-color:  rgb(64, 119, 221);
+}
+
+#servicos3 img{
+width: 90px;
+}
+
+.textoServ{
+font-size: 24px;
+}
+
+.texto{
+font-size: 15px;
+}
+
+.textoSobre h2{
+font-size: 22px;
+}
+
+.textoSobre ul li{
+font-size: 22px;
+}
+
+.textoSobrePrincipal{
+font-size: 22px;
+}
+
+
+.imagens{
+width: auto;
+max-height: 220px;
+}
+
+.redimensionamento{
+width: 80%;
+}
+
+#menu{
+border-bottom: 1px solid rgb(233, 233, 233);
+}
+
+
+
+.cor{
+background-color: rgb(53, 90, 168);
+}
+
+.botao
+{
+    border-radius: 0px;
+}
+
+#menu ul li a{
+color: gray;
+transition: 200ms;
+}
+
+#menu ul li a:hover{
+color: rgb(211, 211, 211) ;
+}
+
+
+.carrocel{
+height: 500px;
+width: 100%
+}
+
+#calcula{
+    background-color: rgb(53, 90, 168)  
+}
+  
+#news{
+    background-color: rgb(240, 240, 240);
+}
+
+
+#imagem{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#logoMenu{
+position: absolute;
+display: flex;
+justify-content: center;
+align-items: center;
+width: 4%;
+height: auto;
+top: 10px;
+left: 30px;
+}
+
+
+
+.botao{
+width: 200px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+#logoMenu img{
+width: 50px;
+}
+
+#redesSociais{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+color: white;
+font-weight:800;
+}
+
+
+#formulario{
+display: flex;
+justify-content: center;
+align-items: center;
+font-size: 40px;
+}
+
+#cabecalho{
+height: 430px;
+background-image: url("./imagens/farmacia.jpg");
+}
+
+
+
+
+.label{
+font-size: 18px;
+font-weight: 800;
+}
+
+
+.box{
+padding-bottom: 18%;
+}
+
+
+.local{
+    color: white;
+    background-color: rgb(55, 94, 179) 
+}
+
+.sobre{
+    color: white;
+    background-color: rgb(61, 61, 61);
+}
+
+@media (max-width: 800px){
+.farmaciaSobre{
+display: none;
+}
+}
+
+.sobre h2{
+color: white;
+}
+
+.sobreFinal{
+color: white;
+background-color: rgb(216, 63, 63);
+}
+
+#lista{
+    color: white;
+    font-size: 20px;
+}
+
+#textoCovid{
+font-size: 30px;
+}
+
+
+#contatoFooter h4, #contatoFooter h3{
+    margin-top: 10px;
+    }
+
+
+
+#bordaForm{
+border-bottom: 1px solid rgb(212, 212, 212);
+width: 90%;
+margin: 0 auto;
+color: rgb(78, 68, 224);
+}
+
+
+
+#icones{
+justify-content: flex-start;
+align-items: flex-start;
+display: flex;
+}
+ #icones a{
+font-size: 2rem;
+color: white;
+margin:10px;
+ }
+
+ #icones a:hover{
+font-size: 2rem;
+color: rgb(3, 3, 3);
+margin:10px;
+}
+
+
+/*Footer*/
+#bordaFooter{
+border-bottom: 1px solid white;
+width: 50%;
+}
+    
+#footer img{
+margin-left: 50px;
+}
+    
+#contatoFooter{
+margin-top: 10px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+color: white;
+}
+
+/*Footer*/
+    
+
+
